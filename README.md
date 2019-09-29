@@ -1,4 +1,4 @@
-# Cogility React App
+# React App with automated regression, unit, integration tests
 
 ---
 
