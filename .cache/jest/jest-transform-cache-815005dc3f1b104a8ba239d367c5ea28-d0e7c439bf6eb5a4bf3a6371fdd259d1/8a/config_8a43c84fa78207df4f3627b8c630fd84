@@ -1,0 +1,25 @@
+3b00ee5c41f7833aed4f73074428d3ef
+"use strict";
+
+var _react = require("@storybook/react");
+
+var _addonJest = require("@storybook/addon-jest");
+
+var _jestTestResults = _interopRequireDefault(require("../.jest-test-results.json"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+// <- or your view layer
+var req = require('require-context.macro/context')(__dirname, '../src/components', true, /\.stories\.js$/); // <- import all the stories at once
+
+function loadStories() {
+  req.keys().forEach(function (filename) {
+    return req(filename);
+  });
+}
+
+(0, _react.configure)(loadStories, module);
+(0, _react.addDecorator)((0, _addonJest.withTests)({
+  results: _jestTestResults["default"]
+}));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbmZpZy5qcyJdLCJuYW1lcyI6WyJyZXEiLCJsb2FkU3RvcmllcyIsImtleXMiLCJmb3JFYWNoIiwiZmlsZW5hbWUiLCJtb2R1bGUiLCJyZXN1bHRzIl0sIm1hcHBpbmdzIjoiOztBQUFBOztBQUVBOztBQUNBOzs7O0FBSGlEO0FBUWpELElBQU1BLEdBQUcsdURBQWtCLG1CQUFsQixFQUF1QyxJQUF2QyxFQUE2QyxnQkFBN0MsQ0FBVCxDLENBQXlFOztBQUV6RSxTQUFTQyxXQUFULEdBQXVCO0FBQ3JCRCxFQUFBQSxHQUFHLENBQUNFLElBQUosR0FBV0MsT0FBWCxDQUFtQixVQUFBQyxRQUFRO0FBQUEsV0FBSUosR0FBRyxDQUFDSSxRQUFELENBQVA7QUFBQSxHQUEzQjtBQUNEOztBQUVELHNCQUFVSCxXQUFWLEVBQXVCSSxNQUF2QjtBQUVBLHlCQUNFLDBCQUFVO0FBQ1JDLEVBQUFBLE9BQU8sRUFBUEE7QUFEUSxDQUFWLENBREYiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBhZGREZWNvcmF0b3IgfSBmcm9tICdAc3Rvcnlib29rL3JlYWN0JzsgLy8gPC0gb3IgeW91ciB2aWV3IGxheWVyXG5pbXBvcnQgeyBjb25maWd1cmUgfSBmcm9tIFwiQHN0b3J5Ym9vay9yZWFjdFwiO1xuaW1wb3J0IHsgd2l0aFRlc3RzIH0gZnJvbSAnQHN0b3J5Ym9vay9hZGRvbi1qZXN0JztcbmltcG9ydCByZXN1bHRzIGZyb20gJy4uLy5qZXN0LXRlc3QtcmVzdWx0cy5qc29uJztcbmltcG9ydCByZXF1aXJlQ29udGV4dCBmcm9tICdyZXF1aXJlLWNvbnRleHQubWFjcm8nO1xuXG5cblxuY29uc3QgcmVxID0gcmVxdWlyZUNvbnRleHQoJy4uL3NyYy9jb21wb25lbnRzJywgdHJ1ZSwgL1xcLnN0b3JpZXNcXC5qcyQvKTsgLy8gPC0gaW1wb3J0IGFsbCB0aGUgc3RvcmllcyBhdCBvbmNlXG5cbmZ1bmN0aW9uIGxvYWRTdG9yaWVzKCkge1xuICByZXEua2V5cygpLmZvckVhY2goZmlsZW5hbWUgPT4gcmVxKGZpbGVuYW1lKSk7XG59XG5cbmNvbmZpZ3VyZShsb2FkU3RvcmllcywgbW9kdWxlKTtcblxuYWRkRGVjb3JhdG9yKFxuICB3aXRoVGVzdHMoe1xuICAgIHJlc3VsdHMsXG4gIH0pXG4pO1xuIl19

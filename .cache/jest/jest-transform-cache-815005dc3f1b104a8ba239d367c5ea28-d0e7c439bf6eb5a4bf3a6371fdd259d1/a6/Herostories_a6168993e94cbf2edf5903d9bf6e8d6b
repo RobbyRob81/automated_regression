@@ -1,0 +1,197 @@
+41e3e8961cbb6b98da8295f58a727fad
+/* istanbul ignore next */
+"use strict";
+
+var cov_14rcg6oavk = function () {
+  var path = "/Users/rrosario/Documents/Github/verus/src/components/Hero/Hero.stories.js";
+  var hash = "f8456305d2d43dba225042c962bb62be34c5bf02";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/rrosario/Documents/Github/verus/src/components/Hero/Hero.stories.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 7,
+          column: 28
+        },
+        end: {
+          line: 7,
+          column: 50
+        }
+      },
+      "1": {
+        start: {
+          line: 10,
+          column: 14
+        },
+        end: {
+          line: 10,
+          column: 39
+        }
+      },
+      "2": {
+        start: {
+          line: 12,
+          column: 0
+        },
+        end: {
+          line: 12,
+          column: 37
+        }
+      },
+      "3": {
+        start: {
+          line: 12,
+          column: 27
+        },
+        end: {
+          line: 12,
+          column: 35
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 7,
+            column: 17
+          },
+          end: {
+            line: 7,
+            column: 18
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 28
+          },
+          end: {
+            line: 7,
+            column: 50
+          }
+        },
+        line: 7
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 12,
+            column: 21
+          },
+          end: {
+            line: 12,
+            column: 22
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 27
+          },
+          end: {
+            line: 12,
+            column: 35
+          }
+        },
+        line: 12
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "f8456305d2d43dba225042c962bb62be34c5bf02"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var
+/* istanbul ignore next */
+_react = _interopRequireDefault(require("react"));
+
+var
+/* istanbul ignore next */
+_react2 = require("@storybook/react");
+
+var
+/* istanbul ignore next */
+_Hero = _interopRequireDefault(require("./Hero"));
+
+/* istanbul ignore next */ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var _default = {
+  title:
+  /* istanbul ignore next */
+  _Hero[
+  /* istanbul ignore next */
+  "default"],
+  decorators: [function (storyFn) {
+    /* istanbul ignore next */
+    cov_14rcg6oavk.f[0]++;
+    cov_14rcg6oavk.s[0]++;
+    return (
+      /* istanbul ignore next */
+      _react["default"].createElement(
+      /* istanbul ignore next */
+      "div",
+      /* istanbul ignore next */
+      null, storyFn())
+    );
+  }]
+};
+
+/* istanbul ignore next */
+exports["default"] = _default;
+var story =
+/* istanbul ignore next */
+(cov_14rcg6oavk.s[1]++,
+/* istanbul ignore next */
+(0,
+/* istanbul ignore next */
+_react2.
+/* istanbul ignore next */
+storiesOf)("Hero", module));
+
+/* istanbul ignore next */
+cov_14rcg6oavk.s[2]++;
+story.add('default', function () {
+  /* istanbul ignore next */
+  cov_14rcg6oavk.f[1]++;
+  cov_14rcg6oavk.s[3]++;
+  return (
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Hero[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    null)
+  );
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhlcm8uc3Rvcmllcy5qcyJdLCJuYW1lcyI6WyJ0aXRsZSIsIkhlcm8iLCJkZWNvcmF0b3JzIiwic3RvcnlGbiIsInN0b3J5Iiwic3Rvcmllc09mIiwibW9kdWxlIiwiYWRkIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQUE7QUFBQTs7QUFDQTtBQUFBO0FBQUE7O0FBQ0E7QUFBQTtBQUFBOzs7O2VBRWU7QUFDWEEsRUFBQUEsS0FBSztBQUFFQztBQUFBQTtBQUFBQTtBQUFBQSxZQURJO0FBRVhDLEVBQUFBLFVBQVUsRUFBRSxDQUFDLFVBQUFDLE9BQU8sRUFBSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBQU1BLE9BQU8sRUFBYjtBQUFBO0FBQXNCLEdBQWxDO0FBRkQsQzs7OztBQUtmLElBQU1DLEtBQUs7QUFBQTtBQUFBO0FBQUc7QUFBQTtBQUFBQztBQUFBQTtBQUFBQTtBQUFBQSxXQUFVLE1BQVYsRUFBa0JDLE1BQWxCLENBQUgsQ0FBWDs7OztBQUVBRixLQUFLLENBQUNHLEdBQU4sQ0FBVSxTQUFWLEVBQXFCLFlBQU07QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQztBQUFBO0FBQUE7QUFBQSxjQUFEO0FBQUE7QUFBQTtBQUFBO0FBQVEsQ0FBbkMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgc3Rvcmllc09mIH0gZnJvbSBcIkBzdG9yeWJvb2svcmVhY3RcIjtcbmltcG9ydCBIZXJvIGZyb20gXCIuL0hlcm9cIjtcblxuZXhwb3J0IGRlZmF1bHQge1xuICAgIHRpdGxlOiBIZXJvLFxuICAgIGRlY29yYXRvcnM6IFtzdG9yeUZuID0+IDxkaXY+e3N0b3J5Rm4oKX08L2Rpdj5dXG59O1xuXG5jb25zdCBzdG9yeSA9IHN0b3JpZXNPZihcIkhlcm9cIiwgbW9kdWxlKTtcblxuc3RvcnkuYWRkKCdkZWZhdWx0JywgKCkgPT4gPEhlcm8gLz4pOyJdfQ==

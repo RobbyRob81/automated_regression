@@ -1,0 +1,97 @@
+58c0c7c5bd6af73c80168c0af0e88442
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = RecipeReviewCard;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Avatar = _interopRequireDefault(require("@material-ui/core/Avatar"));
+
+var _Card = _interopRequireDefault(require("@material-ui/core/Card"));
+
+var _CardActions = _interopRequireDefault(require("@material-ui/core/CardActions"));
+
+var _CardContent = _interopRequireDefault(require("@material-ui/core/CardContent"));
+
+var _CardHeader = _interopRequireDefault(require("@material-ui/core/CardHeader"));
+
+var _CardMedia = _interopRequireDefault(require("@material-ui/core/CardMedia"));
+
+var _Collapse = _interopRequireDefault(require("@material-ui/core/Collapse"));
+
+var _ExpandMore = _interopRequireDefault(require("@material-ui/icons/ExpandMore"));
+
+var _Favorite = _interopRequireDefault(require("@material-ui/icons/Favorite"));
+
+var _IconButton = _interopRequireDefault(require("@material-ui/core/IconButton"));
+
+var _MoreVert = _interopRequireDefault(require("@material-ui/icons/MoreVert"));
+
+var _Share = _interopRequireDefault(require("@material-ui/icons/Share"));
+
+var _Typography = _interopRequireDefault(require("@material-ui/core/Typography"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function RecipeReviewCard(props) {
+  var _React$useState = _react["default"].useState(false),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      expanded = _React$useState2[0],
+      setExpanded = _React$useState2[1];
+
+  var handleExpandClick = function handleExpandClick() {
+    setExpanded(!expanded);
+  };
+
+  return _react["default"].createElement(_Card["default"], null, _react["default"].createElement(_CardHeader["default"], {
+    avatar: _react["default"].createElement(_Avatar["default"], {
+      "aria-label": "recipe"
+    }, "R"),
+    action: _react["default"].createElement(_IconButton["default"], {
+      "aria-label": "settings"
+    }, _react["default"].createElement(_MoreVert["default"], null)),
+    title: "Shrimp and Chorizo Paella",
+    subheader: "September 14, 2016"
+  }), _react["default"].createElement(_CardMedia["default"], {
+    image: "/static/images/cards/paella.jpg",
+    title: "Paella dish"
+  }), _react["default"].createElement(_CardContent["default"], null, _react["default"].createElement(_Typography["default"], {
+    variant: "body2",
+    color: "textSecondary",
+    component: "p"
+  }, "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.")), _react["default"].createElement(_CardActions["default"], {
+    disableSpacing: true
+  }, _react["default"].createElement(_IconButton["default"], {
+    "aria-label": "add to favorites"
+  }, _react["default"].createElement(_Favorite["default"], null)), _react["default"].createElement(_IconButton["default"], {
+    "aria-label": "share"
+  }, _react["default"].createElement(_Share["default"], null)), _react["default"].createElement(_IconButton["default"], {
+    onClick: handleExpandClick,
+    "aria-expanded": expanded,
+    "aria-label": "show more"
+  }, _react["default"].createElement(_ExpandMore["default"], null))), _react["default"].createElement(_Collapse["default"], {
+    "in": expanded,
+    timeout: "auto",
+    unmountOnExit: true
+  }, _react["default"].createElement(_CardContent["default"], null, _react["default"].createElement(_Typography["default"], {
+    paragraph: true
+  }, "Method:"), _react["default"].createElement(_Typography["default"], {
+    paragraph: true
+  }, "Heat 1/2 cup of the broth in a pot until simmering, add saffron and set aside for 10 minutes."), _react["default"].createElement(_Typography["default"], {
+    paragraph: true
+  }, "Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over medium-high heat. Add chicken, shrimp and chorizo, and cook, stirring occasionally until lightly browned, 6 to 8 minutes. Transfer shrimp to a large plate and set aside, leaving chicken and chorizo in the pan. Add piment\xF3n, bay leaves, garlic, tomatoes, onion, salt and pepper, and cook, stirring often until thickened and fragrant, about 10 minutes. Add saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil."), _react["default"].createElement(_Typography["default"], {
+    paragraph: true
+  }, "Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and mussels, tucking them down into the rice, and cook again without stirring, until mussels have opened and rice is just tender, 5 to 7 minutes more. (Discard any mussels that don\u2019t open.)"), _react["default"].createElement(_Typography["default"], null, "Set aside off of the heat to let rest for 10 minutes, and then serve."))));
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNhcmQuanMiXSwibmFtZXMiOlsiUmVjaXBlUmV2aWV3Q2FyZCIsInByb3BzIiwiUmVhY3QiLCJ1c2VTdGF0ZSIsImV4cGFuZGVkIiwic2V0RXhwYW5kZWQiLCJoYW5kbGVFeHBhbmRDbGljayJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztBQUVBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOzs7Ozs7Ozs7Ozs7QUFFZSxTQUFTQSxnQkFBVCxDQUEwQkMsS0FBMUIsRUFBaUM7QUFBQSx3QkFDZEMsa0JBQU1DLFFBQU4sQ0FBZSxLQUFmLENBRGM7QUFBQTtBQUFBLE1BQ3ZDQyxRQUR1QztBQUFBLE1BQzdCQyxXQUQ2Qjs7QUFHOUMsTUFBTUMsaUJBQWlCLEdBQUcsU0FBcEJBLGlCQUFvQixHQUFNO0FBQzlCRCxJQUFBQSxXQUFXLENBQUMsQ0FBQ0QsUUFBRixDQUFYO0FBQ0QsR0FGRDs7QUFJQSxTQUNFLGdDQUFDLGdCQUFELFFBQ0UsZ0NBQUMsc0JBQUQ7QUFDRSxJQUFBLE1BQU0sRUFDSixnQ0FBQyxrQkFBRDtBQUFRLG9CQUFXO0FBQW5CLFdBRko7QUFNRSxJQUFBLE1BQU0sRUFDSixnQ0FBQyxzQkFBRDtBQUFZLG9CQUFXO0FBQXZCLE9BQ0UsZ0NBQUMsb0JBQUQsT0FERixDQVBKO0FBV0UsSUFBQSxLQUFLLEVBQUMsMkJBWFI7QUFZRSxJQUFBLFNBQVMsRUFBQztBQVpaLElBREYsRUFlRSxnQ0FBQyxxQkFBRDtBQUVFLElBQUEsS0FBSyxFQUFDLGlDQUZSO0FBR0UsSUFBQSxLQUFLLEVBQUM7QUFIUixJQWZGLEVBb0JFLGdDQUFDLHVCQUFELFFBQ0UsZ0NBQUMsc0JBQUQ7QUFBWSxJQUFBLE9BQU8sRUFBQyxPQUFwQjtBQUE0QixJQUFBLEtBQUssRUFBQyxlQUFsQztBQUFrRCxJQUFBLFNBQVMsRUFBQztBQUE1RCxzS0FERixDQXBCRixFQTBCRSxnQ0FBQyx1QkFBRDtBQUFhLElBQUEsY0FBYztBQUEzQixLQUNFLGdDQUFDLHNCQUFEO0FBQVksa0JBQVc7QUFBdkIsS0FDRSxnQ0FBQyxvQkFBRCxPQURGLENBREYsRUFJRSxnQ0FBQyxzQkFBRDtBQUFZLGtCQUFXO0FBQXZCLEtBQ0UsZ0NBQUMsaUJBQUQsT0FERixDQUpGLEVBT0UsZ0NBQUMsc0JBQUQ7QUFFRSxJQUFBLE9BQU8sRUFBRUUsaUJBRlg7QUFHRSxxQkFBZUYsUUFIakI7QUFJRSxrQkFBVztBQUpiLEtBTUUsZ0NBQUMsc0JBQUQsT0FORixDQVBGLENBMUJGLEVBMENFLGdDQUFDLG9CQUFEO0FBQVUsVUFBSUEsUUFBZDtBQUF3QixJQUFBLE9BQU8sRUFBQyxNQUFoQztBQUF1QyxJQUFBLGFBQWE7QUFBcEQsS0FDRSxnQ0FBQyx1QkFBRCxRQUNFLGdDQUFDLHNCQUFEO0FBQVksSUFBQSxTQUFTO0FBQXJCLGVBREYsRUFFRSxnQ0FBQyxzQkFBRDtBQUFZLElBQUEsU0FBUztBQUFyQixxR0FGRixFQU1FLGdDQUFDLHNCQUFEO0FBQVksSUFBQSxTQUFTO0FBQXJCLDRmQU5GLEVBY0UsZ0NBQUMsc0JBQUQ7QUFBWSxJQUFBLFNBQVM7QUFBckIsMFpBZEYsRUFxQkUsZ0NBQUMsc0JBQUQsZ0ZBckJGLENBREYsQ0ExQ0YsQ0FERjtBQXdFRCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmltcG9ydCBBdmF0YXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQXZhdGFyJztcbmltcG9ydCBDYXJkIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0NhcmQnO1xuaW1wb3J0IENhcmRBY3Rpb25zIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0NhcmRBY3Rpb25zJztcbmltcG9ydCBDYXJkQ29udGVudCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9DYXJkQ29udGVudCc7XG5pbXBvcnQgQ2FyZEhlYWRlciBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9DYXJkSGVhZGVyJztcbmltcG9ydCBDYXJkTWVkaWEgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ2FyZE1lZGlhJztcbmltcG9ydCBDb2xsYXBzZSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9Db2xsYXBzZSc7XG5pbXBvcnQgRXhwYW5kTW9yZUljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL0V4cGFuZE1vcmUnO1xuaW1wb3J0IEZhdm9yaXRlSWNvbiBmcm9tICdAbWF0ZXJpYWwtdWkvaWNvbnMvRmF2b3JpdGUnO1xuaW1wb3J0IEljb25CdXR0b24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvSWNvbkJ1dHRvbic7XG5pbXBvcnQgTW9yZVZlcnRJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9Nb3JlVmVydCc7XG5pbXBvcnQgU2hhcmVJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9TaGFyZSc7XG5pbXBvcnQgVHlwb2dyYXBoeSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9UeXBvZ3JhcGh5JztcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUmVjaXBlUmV2aWV3Q2FyZChwcm9wcykge1xuICBjb25zdCBbZXhwYW5kZWQsIHNldEV4cGFuZGVkXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTtcblxuICBjb25zdCBoYW5kbGVFeHBhbmRDbGljayA9ICgpID0+IHtcbiAgICBzZXRFeHBhbmRlZCghZXhwYW5kZWQpO1xuICB9O1xuXG4gIHJldHVybiAoXG4gICAgPENhcmQgPlxuICAgICAgPENhcmRIZWFkZXJcbiAgICAgICAgYXZhdGFyPXtcbiAgICAgICAgICA8QXZhdGFyIGFyaWEtbGFiZWw9XCJyZWNpcGVcIj5cbiAgICAgICAgICAgIFJcbiAgICAgICAgICA8L0F2YXRhcj5cbiAgICAgICAgfVxuICAgICAgICBhY3Rpb249e1xuICAgICAgICAgIDxJY29uQnV0dG9uIGFyaWEtbGFiZWw9XCJzZXR0aW5nc1wiPlxuICAgICAgICAgICAgPE1vcmVWZXJ0SWNvbiAvPlxuICAgICAgICAgIDwvSWNvbkJ1dHRvbj5cbiAgICAgICAgfVxuICAgICAgICB0aXRsZT1cIlNocmltcCBhbmQgQ2hvcml6byBQYWVsbGFcIlxuICAgICAgICBzdWJoZWFkZXI9XCJTZXB0ZW1iZXIgMTQsIDIwMTZcIlxuICAgICAgLz5cbiAgICAgIDxDYXJkTWVkaWFcbiAgICAgICAgXG4gICAgICAgIGltYWdlPVwiL3N0YXRpYy9pbWFnZXMvY2FyZHMvcGFlbGxhLmpwZ1wiXG4gICAgICAgIHRpdGxlPVwiUGFlbGxhIGRpc2hcIlxuICAgICAgLz5cbiAgICAgIDxDYXJkQ29udGVudD5cbiAgICAgICAgPFR5cG9ncmFwaHkgdmFyaWFudD1cImJvZHkyXCIgY29sb3I9XCJ0ZXh0U2Vjb25kYXJ5XCIgY29tcG9uZW50PVwicFwiPlxuICAgICAgICAgIFRoaXMgaW1wcmVzc2l2ZSBwYWVsbGEgaXMgYSBwZXJmZWN0IHBhcnR5IGRpc2ggYW5kIGEgZnVuIG1lYWwgdG8gY29vayB0b2dldGhlciB3aXRoIHlvdXJcbiAgICAgICAgICBndWVzdHMuIEFkZCAxIGN1cCBvZiBmcm96ZW4gcGVhcyBhbG9uZyB3aXRoIHRoZSBtdXNzZWxzLCBpZiB5b3UgbGlrZS5cbiAgICAgICAgPC9UeXBvZ3JhcGh5PlxuICAgICAgPC9DYXJkQ29udGVudD5cbiAgICAgIDxDYXJkQWN0aW9ucyBkaXNhYmxlU3BhY2luZz5cbiAgICAgICAgPEljb25CdXR0b24gYXJpYS1sYWJlbD1cImFkZCB0byBmYXZvcml0ZXNcIj5cbiAgICAgICAgICA8RmF2b3JpdGVJY29uIC8+XG4gICAgICAgIDwvSWNvbkJ1dHRvbj5cbiAgICAgICAgPEljb25CdXR0b24gYXJpYS1sYWJlbD1cInNoYXJlXCI+XG4gICAgICAgICAgPFNoYXJlSWNvbiAvPlxuICAgICAgICA8L0ljb25CdXR0b24+XG4gICAgICAgIDxJY29uQnV0dG9uXG4gICAgICAgICAgXG4gICAgICAgICAgb25DbGljaz17aGFuZGxlRXhwYW5kQ2xpY2t9XG4gICAgICAgICAgYXJpYS1leHBhbmRlZD17ZXhwYW5kZWR9XG4gICAgICAgICAgYXJpYS1sYWJlbD1cInNob3cgbW9yZVwiXG4gICAgICAgID5cbiAgICAgICAgICA8RXhwYW5kTW9yZUljb24gLz5cbiAgICAgICAgPC9JY29uQnV0dG9uPlxuICAgICAgPC9DYXJkQWN0aW9ucz5cbiAgICAgIDxDb2xsYXBzZSBpbj17ZXhwYW5kZWR9IHRpbWVvdXQ9XCJhdXRvXCIgdW5tb3VudE9uRXhpdD5cbiAgICAgICAgPENhcmRDb250ZW50PlxuICAgICAgICAgIDxUeXBvZ3JhcGh5IHBhcmFncmFwaD5NZXRob2Q6PC9UeXBvZ3JhcGh5PlxuICAgICAgICAgIDxUeXBvZ3JhcGh5IHBhcmFncmFwaD5cbiAgICAgICAgICAgIEhlYXQgMS8yIGN1cCBvZiB0aGUgYnJvdGggaW4gYSBwb3QgdW50aWwgc2ltbWVyaW5nLCBhZGQgc2FmZnJvbiBhbmQgc2V0IGFzaWRlIGZvciAxMFxuICAgICAgICAgICAgbWludXRlcy5cbiAgICAgICAgICA8L1R5cG9ncmFwaHk+XG4gICAgICAgICAgPFR5cG9ncmFwaHkgcGFyYWdyYXBoPlxuICAgICAgICAgICAgSGVhdCBvaWwgaW4gYSAoMTQtIHRvIDE2LWluY2gpIHBhZWxsYSBwYW4gb3IgYSBsYXJnZSwgZGVlcCBza2lsbGV0IG92ZXIgbWVkaXVtLWhpZ2hcbiAgICAgICAgICAgIGhlYXQuIEFkZCBjaGlja2VuLCBzaHJpbXAgYW5kIGNob3Jpem8sIGFuZCBjb29rLCBzdGlycmluZyBvY2Nhc2lvbmFsbHkgdW50aWwgbGlnaHRseVxuICAgICAgICAgICAgYnJvd25lZCwgNiB0byA4IG1pbnV0ZXMuIFRyYW5zZmVyIHNocmltcCB0byBhIGxhcmdlIHBsYXRlIGFuZCBzZXQgYXNpZGUsIGxlYXZpbmcgY2hpY2tlblxuICAgICAgICAgICAgYW5kIGNob3Jpem8gaW4gdGhlIHBhbi4gQWRkIHBpbWVudMOzbiwgYmF5IGxlYXZlcywgZ2FybGljLCB0b21hdG9lcywgb25pb24sIHNhbHQgYW5kXG4gICAgICAgICAgICBwZXBwZXIsIGFuZCBjb29rLCBzdGlycmluZyBvZnRlbiB1bnRpbCB0aGlja2VuZWQgYW5kIGZyYWdyYW50LCBhYm91dCAxMCBtaW51dGVzLiBBZGRcbiAgICAgICAgICAgIHNhZmZyb24gYnJvdGggYW5kIHJlbWFpbmluZyA0IDEvMiBjdXBzIGNoaWNrZW4gYnJvdGg7IGJyaW5nIHRvIGEgYm9pbC5cbiAgICAgICAgICA8L1R5cG9ncmFwaHk+XG4gICAgICAgICAgPFR5cG9ncmFwaHkgcGFyYWdyYXBoPlxuICAgICAgICAgICAgQWRkIHJpY2UgYW5kIHN0aXIgdmVyeSBnZW50bHkgdG8gZGlzdHJpYnV0ZS4gVG9wIHdpdGggYXJ0aWNob2tlcyBhbmQgcGVwcGVycywgYW5kIGNvb2tcbiAgICAgICAgICAgIHdpdGhvdXQgc3RpcnJpbmcsIHVudGlsIG1vc3Qgb2YgdGhlIGxpcXVpZCBpcyBhYnNvcmJlZCwgMTUgdG8gMTggbWludXRlcy4gUmVkdWNlIGhlYXQgdG9cbiAgICAgICAgICAgIG1lZGl1bS1sb3csIGFkZCByZXNlcnZlZCBzaHJpbXAgYW5kIG11c3NlbHMsIHR1Y2tpbmcgdGhlbSBkb3duIGludG8gdGhlIHJpY2UsIGFuZCBjb29rXG4gICAgICAgICAgICBhZ2FpbiB3aXRob3V0IHN0aXJyaW5nLCB1bnRpbCBtdXNzZWxzIGhhdmUgb3BlbmVkIGFuZCByaWNlIGlzIGp1c3QgdGVuZGVyLCA1IHRvIDdcbiAgICAgICAgICAgIG1pbnV0ZXMgbW9yZS4gKERpc2NhcmQgYW55IG11c3NlbHMgdGhhdCBkb27igJl0IG9wZW4uKVxuICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgICA8VHlwb2dyYXBoeT5cbiAgICAgICAgICAgIFNldCBhc2lkZSBvZmYgb2YgdGhlIGhlYXQgdG8gbGV0IHJlc3QgZm9yIDEwIG1pbnV0ZXMsIGFuZCB0aGVuIHNlcnZlLlxuICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgPC9DYXJkQ29udGVudD5cbiAgICAgIDwvQ29sbGFwc2U+XG4gICAgPC9DYXJkPlxuICApO1xufSJdfQ==

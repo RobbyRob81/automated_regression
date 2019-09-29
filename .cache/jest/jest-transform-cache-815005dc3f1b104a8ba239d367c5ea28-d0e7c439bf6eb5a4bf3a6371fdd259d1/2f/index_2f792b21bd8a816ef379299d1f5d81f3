@@ -1,0 +1,49 @@
+6f1ac106e18abade359b769fd935c602
+/* istanbul ignore next */
+"use strict";
+
+var cov_jt4fakt0a = function () {
+  var path = "/Users/rrosario/Documents/Github/verus/src/components/Text/index.js";
+  var hash = "af0c53e34a264fe05b9b62087637eab24a6c0dbd";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/rrosario/Documents/Github/verus/src/components/Text/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "af0c53e34a264fe05b9b62087637eab24a6c0dbd"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var
+/* istanbul ignore next */
+_Text = _interopRequireDefault(require("./Text"));
+
+/* istanbul ignore next */ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var _default =
+/* istanbul ignore next */
+_Text[
+/* istanbul ignore next */
+"default"];
+
+/* istanbul ignore next */
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbIlRleHQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUNBO0FBQUE7QUFBQTs7Ozs7QUFFZUE7QUFBQUE7QUFBQUE7QUFBQUEsVSIsInNvdXJjZXNDb250ZW50IjpbIiAgXG5pbXBvcnQgVGV4dCBmcm9tICcuL1RleHQnO1xuXG5leHBvcnQgZGVmYXVsdCBUZXh0OyJdfQ==

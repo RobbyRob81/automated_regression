@@ -1,0 +1,16 @@
+c6bbf1ee3fefa3718edd6d4be0417a85
+"use strict";
+
+var _addonStoryshots = _interopRequireDefault(require("@storybook/addon-storyshots"));
+
+var _addonStoryshotsPuppeteer = require("@storybook/addon-storyshots-puppeteer");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+(0, _addonStoryshots["default"])({
+  suite: 'Image storyshots',
+  test: (0, _addonStoryshotsPuppeteer.imageSnapshot)({
+    storybookUrl: 'http://localhost:6006'
+  })
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0b3J5c2hvdHMudGVzdC5qcyJdLCJuYW1lcyI6WyJzdWl0ZSIsInRlc3QiLCJzdG9yeWJvb2tVcmwiXSwibWFwcGluZ3MiOiI7O0FBQUE7O0FBQ0E7Ozs7QUFFQSxpQ0FBZTtBQUFDQSxFQUFBQSxLQUFLLEVBQUUsa0JBQVI7QUFBNEJDLEVBQUFBLElBQUksRUFBRSw2Q0FBYztBQUFDQyxJQUFBQSxZQUFZLEVBQUU7QUFBZixHQUFkO0FBQWxDLENBQWYiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgaW5pdFN0b3J5c2hvdHMgZnJvbSAnQHN0b3J5Ym9vay9hZGRvbi1zdG9yeXNob3RzJztcbmltcG9ydCB7IGltYWdlU25hcHNob3QgfSBmcm9tICdAc3Rvcnlib29rL2FkZG9uLXN0b3J5c2hvdHMtcHVwcGV0ZWVyJztcblxuaW5pdFN0b3J5c2hvdHMoe3N1aXRlOiAnSW1hZ2Ugc3RvcnlzaG90cycsIHRlc3Q6IGltYWdlU25hcHNob3Qoe3N0b3J5Ym9va1VybDogJ2h0dHA6Ly9sb2NhbGhvc3Q6NjAwNid9KX0pOyJdfQ==

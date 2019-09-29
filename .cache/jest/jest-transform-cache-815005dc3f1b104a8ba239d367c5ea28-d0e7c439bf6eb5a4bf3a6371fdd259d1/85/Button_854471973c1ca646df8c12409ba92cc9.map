@@ -1,0 +1,1 @@
+{"version":3,"sources":["Button.js"],"names":["Button","props"],"mappings":";;;;;;;AAAA;;;;AAEA,IAAMA,MAAM,GAAG,SAATA,MAAS,CAAAC,KAAK,EAAI;AACtB,SACE,sDADF;AAKD,CAND;;eAQeD,M","sourcesContent":["import React from 'react';\n\nconst Button = props => {\n  return (\n    <div>\n      Button\n    </div>\n  );\n};\n\nexport default Button;"]}

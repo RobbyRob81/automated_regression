@@ -1,0 +1,13 @@
+6642adbf05d5e617fdc3fe58bb0005f8
+"use strict";
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Home = _interopRequireDefault(require("./Home"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+describe('Home', function () {
+  it('renders without error', function () {});
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhvbWUudGVzdC5qcyJdLCJuYW1lcyI6WyJkZXNjcmliZSIsIml0Il0sIm1hcHBpbmdzIjoiOztBQUFBOztBQUNBOzs7O0FBRUFBLFFBQVEsQ0FBQyxNQUFELEVBQVMsWUFBTTtBQUNwQkMsRUFBQUEsRUFBRSxDQUFDLHVCQUFELEVBQTBCLFlBQU0sQ0FFakMsQ0FGQyxDQUFGO0FBR0YsQ0FKTyxDQUFSIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBIb21lIGZyb20gJy4vSG9tZSc7XG5cbmRlc2NyaWJlKCdIb21lJywgKCkgPT4ge1xuICAgaXQoJ3JlbmRlcnMgd2l0aG91dCBlcnJvcicsICgpID0+IHtcblxuICAgfSk7XG59KTsiXX0=

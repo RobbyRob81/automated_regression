@@ -1,0 +1,49 @@
+c27fbca1411724f18be5f7098ea68018
+/* istanbul ignore next */
+"use strict";
+
+var cov_2ac17ms1mq = function () {
+  var path = "/Users/rrosario/Documents/Github/verus/src/components/Card/index.js";
+  var hash = "53a857fe25935ea217971da9dfb07a9293aae736";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/rrosario/Documents/Github/verus/src/components/Card/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "53a857fe25935ea217971da9dfb07a9293aae736"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var
+/* istanbul ignore next */
+_Card = _interopRequireDefault(require("./Card"));
+
+/* istanbul ignore next */ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var _default =
+/* istanbul ignore next */
+_Card[
+/* istanbul ignore next */
+"default"];
+
+/* istanbul ignore next */
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbIkNhcmQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUNBO0FBQUE7QUFBQTs7Ozs7QUFFZUE7QUFBQUE7QUFBQUE7QUFBQUEsVSIsInNvdXJjZXNDb250ZW50IjpbIiAgXG5pbXBvcnQgQ2FyZCBmcm9tICcuL0NhcmQnO1xuXG5leHBvcnQgZGVmYXVsdCBDYXJkOyJdfQ==

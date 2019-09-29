@@ -1,0 +1,9 @@
+5b90b6b5f191fd44808b1b2e2a23b810
+"use strict";
+
+var _register = _interopRequireDefault(require("babel-plugin-require-context-hook/register"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+(0, _register["default"])();
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlZ2lzdGVyLWNvbnRleHQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHJlZ2lzdGVyUmVxdWlyZUNvbnRleHRIb29rIGZyb20gJ2JhYmVsLXBsdWdpbi1yZXF1aXJlLWNvbnRleHQtaG9vay9yZWdpc3Rlcic7XG5yZWdpc3RlclJlcXVpcmVDb250ZXh0SG9vaygpOyJdfQ==

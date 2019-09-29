@@ -1,0 +1,49 @@
+607a365ee2d189ac34ec5600bc30438a
+/* istanbul ignore next */
+"use strict";
+
+var cov_1ffmq2zub = function () {
+  var path = "/Users/rrosario/Documents/Github/verus/src/components/core/Button/index.js";
+  var hash = "e3c2156ced3fb9728a482437f55395e10e36cb47";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/rrosario/Documents/Github/verus/src/components/core/Button/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "e3c2156ced3fb9728a482437f55395e10e36cb47"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var
+/* istanbul ignore next */
+_Button = _interopRequireDefault(require("./Button"));
+
+/* istanbul ignore next */ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var _default =
+/* istanbul ignore next */
+_Button[
+/* istanbul ignore next */
+"default"];
+
+/* istanbul ignore next */
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbIkJ1dHRvbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQ0E7QUFBQTtBQUFBOzs7OztBQUVlQTtBQUFBQTtBQUFBQTtBQUFBQSxVIiwic291cmNlc0NvbnRlbnQiOlsiICBcbmltcG9ydCBCdXR0b24gZnJvbSAnLi9CdXR0b24nO1xuXG5leHBvcnQgZGVmYXVsdCBCdXR0b247Il19

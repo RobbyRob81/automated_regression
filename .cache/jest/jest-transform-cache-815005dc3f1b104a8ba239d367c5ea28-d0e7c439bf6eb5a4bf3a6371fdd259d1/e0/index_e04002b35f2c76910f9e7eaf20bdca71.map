@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["Hero"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACA;AAAA;AAAA;;;;;AAEeA;AAAAA;AAAAA;AAAAA,U","sourcesContent":["  \nimport Hero from './Hero';\n\nexport default Hero;"]}

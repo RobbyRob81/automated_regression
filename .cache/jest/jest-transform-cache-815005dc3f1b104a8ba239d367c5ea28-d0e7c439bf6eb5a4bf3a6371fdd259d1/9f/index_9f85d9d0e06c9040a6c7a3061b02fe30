@@ -1,0 +1,49 @@
+ca0c943a35d810d908e95cb3bb32ad69
+/* istanbul ignore next */
+"use strict";
+
+var cov_j949pyv7 = function () {
+  var path = "/Users/rrosario/Documents/Github/verus/src/components/core/Accordion/index.js";
+  var hash = "0f79e81a69d404a260d8d14f2f6720d751c31f99";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/rrosario/Documents/Github/verus/src/components/core/Accordion/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "0f79e81a69d404a260d8d14f2f6720d751c31f99"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var
+/* istanbul ignore next */
+_Accordion = _interopRequireDefault(require("./Accordion"));
+
+/* istanbul ignore next */ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var _default =
+/* istanbul ignore next */
+_Accordion[
+/* istanbul ignore next */
+"default"];
+
+/* istanbul ignore next */
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbIkFjY29yZGlvbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQ0E7QUFBQTtBQUFBOzs7OztBQUVlQTtBQUFBQTtBQUFBQTtBQUFBQSxVIiwic291cmNlc0NvbnRlbnQiOlsiICBcbmltcG9ydCBBY2NvcmRpb24gZnJvbSAnLi9BY2NvcmRpb24nO1xuXG5leHBvcnQgZGVmYXVsdCBBY2NvcmRpb247Il19

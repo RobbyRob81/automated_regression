@@ -1,4 +1,4 @@
-# React App with automated regression unit, integration and regression tests
+# Cogility React App
 
 ---
 
@@ -11,8 +11,7 @@
 ### Generators
 
 ---
-
-The concept here is that everything that can be automated should be. Easily add to the project with the following scrips:
+The concept here is that everything that can be automated should be.  Easily add to the project with the following scrips:
 
 #### Components
 
@@ -42,7 +41,6 @@ Running this command will generate a hook with the given name.
 ### Living Style Guide
 
 ---
-
 We use storybook to bring transparency into the development cycle and to achieve the following:
 
 • Increased velocity
@@ -57,7 +55,7 @@ You can read more about storybook [here](https://storybook.js.org/docs/basics/in
 
 ### Story structure
 
-Each component should have a story for each state. For example:
+Each component should have a story for each state.  For example:
 
 • default
 • Empty
@@ -66,7 +64,6 @@ Each component should have a story for each state. For example:
 ### Component Library
 
 ---
-
 Our team uses Material UI and Material UI Core to power the front end.
 read more about material ui [here](https://material-ui.com/)
 
@@ -81,7 +78,7 @@ Component API can be explored [here](https://material-ui.com/api/app-bar/)
 • addon-storyshots
 • storyshots-puppeteer
 
-We use the testing pyramid to ensure we deliver high quality user experiences. We've automated unit and most integration test cases by using jest, storybook and storyshots. Our stories generate tests to cover:
+We use the testing pyramid to ensure we deliver high quality user experiences.  We've automated unit and most integration test cases by using jest, storybook and storyshots.  Our stories generate tests to cover:
 
 • Unit tests (good coverage)
 • Integration tests, visual regression
@@ -104,12 +101,12 @@ If you already write stories for every component, you already are writing tests,
 
 And this is what Storyshots does. Storyshots will verify that a React component renders correctly; and if you build multiple stories with a number of different properties then Storyshots can snapshot those as well, and those would be verified on every test run.
 
-| Test Type          | Level       | Subject        | Solution   | Source    |
-| ------------------ | ----------- | -------------- | ---------- | --------- |
-| Browser Regression | Integration | Page/Component | Storyshots | Story     |
-| Visual Regression  | Integration | Page/Component | Storyshots | Story     |
-| Render             | Integration | Page/Component | Storyshots | Story     |
-| Interaction        | Unit        | Component      | Storyshots | Unit Test |
+| Test Type | Level | Subject | Solution | Source |
+| --------- | ----- | ------- | -------- | ------ |
+| Browser Regression | Integration | Page/Component | Storyshots | Story |
+| Visual Regression | Integration | Page/Component | Storyshots  | Story |
+| Render | Integration | Page/Component | Storyshots  | Story |
+| Interaction | Unit | Component | Storyshots  | Unit Test |
 
 That said, you should definitely keep your “classic” unit tests for logic, library and domain model code. All these things you put in /lib, external packages that deal with your domain model and so on.
 
@@ -128,12 +125,10 @@ run `yarn storybook` and `yarn test:coverage` in seperate terminals to get insta
 
 #### Wallaby inline IDE test coverage
 
-You can get test coverage feedback in your editor if you use Wallaby.js More info about it can be found [here](https://wallabyjs.com). You'll need the pro version to use all the features, it's highly recommended.
+You can get test coverage feedback in your editor if you use Wallaby.js More info about it can be found [here](https://wallabyjs.com).  You'll need the pro version to use all the features, it's highly recommended.
 
     Setup
     1. Install IDE extension. More info [here](https://wallabyjs.com/download/)
     2. Configure via Automatic Configuration, select `Automatic Configuration <project directory>` More info [here](https://wallabyjs.com/docs/intro/config.html)
     3. You Should now see test coverage in your editor.
     4. Optional, you can view the app test coverage by going to [ http://localhost:51245]( http://localhost:51245) to see test coverage
-
-# automated_regression

@@ -1,0 +1,476 @@
+c2c71012da248ab338cd1ca9dbd1f7b7
+/* istanbul ignore next */
+"use strict";
+
+var cov_1cmu4ioea = function () {
+  var path = "/Users/rrosario/Documents/Github/verus/src/components/core/Card/Card.js";
+  var hash = "ba60a4a36136d9eb7299ea0db6b071579c1d4d11";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/rrosario/Documents/Github/verus/src/components/core/Card/Card.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 18,
+          column: 34
+        },
+        end: {
+          line: 18,
+          column: 55
+        }
+      },
+      "1": {
+        start: {
+          line: 20,
+          column: 28
+        },
+        end: {
+          line: 22,
+          column: 3
+        }
+      },
+      "2": {
+        start: {
+          line: 21,
+          column: 4
+        },
+        end: {
+          line: 21,
+          column: 27
+        }
+      },
+      "3": {
+        start: {
+          line: 24,
+          column: 2
+        },
+        end: {
+          line: 94,
+          column: 4
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "RecipeReviewCard",
+        decl: {
+          start: {
+            line: 17,
+            column: 24
+          },
+          end: {
+            line: 17,
+            column: 40
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 48
+          },
+          end: {
+            line: 95,
+            column: 1
+          }
+        },
+        line: 17
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 20,
+            column: 28
+          },
+          end: {
+            line: 20,
+            column: 29
+          }
+        },
+        loc: {
+          start: {
+            line: 20,
+            column: 34
+          },
+          end: {
+            line: 22,
+            column: 3
+          }
+        },
+        line: 20
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    hash: "ba60a4a36136d9eb7299ea0db6b071579c1d4d11"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = RecipeReviewCard;
+
+var
+/* istanbul ignore next */
+_react = _interopRequireDefault(require("react"));
+
+var
+/* istanbul ignore next */
+_Avatar = _interopRequireDefault(require("@material-ui/core/Avatar"));
+
+var
+/* istanbul ignore next */
+_Card = _interopRequireDefault(require("@material-ui/core/Card"));
+
+var
+/* istanbul ignore next */
+_CardActions = _interopRequireDefault(require("@material-ui/core/CardActions"));
+
+var
+/* istanbul ignore next */
+_CardContent = _interopRequireDefault(require("@material-ui/core/CardContent"));
+
+var
+/* istanbul ignore next */
+_CardHeader = _interopRequireDefault(require("@material-ui/core/CardHeader"));
+
+var
+/* istanbul ignore next */
+_CardMedia = _interopRequireDefault(require("@material-ui/core/CardMedia"));
+
+var
+/* istanbul ignore next */
+_Collapse = _interopRequireDefault(require("@material-ui/core/Collapse"));
+
+var
+/* istanbul ignore next */
+_ExpandMore = _interopRequireDefault(require("@material-ui/icons/ExpandMore"));
+
+var
+/* istanbul ignore next */
+_Favorite = _interopRequireDefault(require("@material-ui/icons/Favorite"));
+
+var
+/* istanbul ignore next */
+_IconButton = _interopRequireDefault(require("@material-ui/core/IconButton"));
+
+var
+/* istanbul ignore next */
+_MoreVert = _interopRequireDefault(require("@material-ui/icons/MoreVert"));
+
+var
+/* istanbul ignore next */
+_Share = _interopRequireDefault(require("@material-ui/icons/Share"));
+
+var
+/* istanbul ignore next */
+_Typography = _interopRequireDefault(require("@material-ui/core/Typography"));
+
+/* istanbul ignore next */ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function RecipeReviewCard(props) {
+  /* istanbul ignore next */
+  cov_1cmu4ioea.f[0]++;
+
+  var _ref = (cov_1cmu4ioea.s[0]++,
+  /* istanbul ignore next */
+  _react[
+  /* istanbul ignore next */
+  "default"].useState(false)),
+      _ref2 = _slicedToArray(_ref, 2),
+      expanded = _ref2[0],
+      setExpanded = _ref2[1];
+
+  /* istanbul ignore next */
+  cov_1cmu4ioea.s[1]++;
+
+  var handleExpandClick = function handleExpandClick() {
+    /* istanbul ignore next */
+    cov_1cmu4ioea.f[1]++;
+    cov_1cmu4ioea.s[2]++;
+    setExpanded(!expanded);
+  };
+
+  /* istanbul ignore next */
+  cov_1cmu4ioea.s[3]++;
+  return (
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Card[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    null,
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _CardHeader[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      avatar:
+      /* istanbul ignore next */
+      _react["default"].createElement(
+      /* istanbul ignore next */
+      _Avatar[
+      /* istanbul ignore next */
+      "default"],
+      /* istanbul ignore next */
+      {
+        /* istanbul ignore next */
+        "aria-label": "recipe"
+      },
+      /* istanbul ignore next */
+      "R"),
+      action:
+      /* istanbul ignore next */
+      _react["default"].createElement(
+      /* istanbul ignore next */
+      _IconButton[
+      /* istanbul ignore next */
+      "default"],
+      /* istanbul ignore next */
+      {
+        /* istanbul ignore next */
+        "aria-label": "settings"
+      },
+      /* istanbul ignore next */
+      _react["default"].createElement(
+      /* istanbul ignore next */
+      _MoreVert[
+      /* istanbul ignore next */
+      "default"],
+      /* istanbul ignore next */
+      null)),
+      title: "Shrimp and Chorizo Paella",
+      subheader: "September 14, 2016"
+    }),
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _CardMedia[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      image: "/static/images/cards/paella.jpg",
+      title: "Paella dish"
+    }),
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _CardContent[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    null,
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Typography[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      variant: "body2",
+      color: "textSecondary",
+      component: "p"
+    },
+    /* istanbul ignore next */
+    "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.")),
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _CardActions[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      disableSpacing:
+      /* istanbul ignore next */
+      true
+    },
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _IconButton[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      /* istanbul ignore next */
+      "aria-label": "add to favorites"
+    },
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Favorite[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    null)),
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _IconButton[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      /* istanbul ignore next */
+      "aria-label": "share"
+    },
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Share[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    null)),
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _IconButton[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      onClick: handleExpandClick,
+
+      /* istanbul ignore next */
+      "aria-expanded": expanded,
+
+      /* istanbul ignore next */
+      "aria-label": "show more"
+    },
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _ExpandMore[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    null))),
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Collapse[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      /* istanbul ignore next */
+      "in": expanded,
+      timeout: "auto",
+      unmountOnExit:
+      /* istanbul ignore next */
+      true
+    },
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _CardContent[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    null,
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Typography[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      paragraph:
+      /* istanbul ignore next */
+      true
+    },
+    /* istanbul ignore next */
+    "Method:"),
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Typography[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      paragraph:
+      /* istanbul ignore next */
+      true
+    },
+    /* istanbul ignore next */
+    "Heat 1/2 cup of the broth in a pot until simmering, add saffron and set aside for 10 minutes."),
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Typography[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      paragraph:
+      /* istanbul ignore next */
+      true
+    },
+    /* istanbul ignore next */
+    "Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over medium-high heat. Add chicken, shrimp and chorizo, and cook, stirring occasionally until lightly browned, 6 to 8 minutes. Transfer shrimp to a large plate and set aside, leaving chicken and chorizo in the pan. Add piment\xF3n, bay leaves, garlic, tomatoes, onion, salt and pepper, and cook, stirring often until thickened and fragrant, about 10 minutes. Add saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil."),
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Typography[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    {
+      paragraph:
+      /* istanbul ignore next */
+      true
+    },
+    /* istanbul ignore next */
+    "Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat to medium-low, add reserved shrimp and mussels, tucking them down into the rice, and cook again without stirring, until mussels have opened and rice is just tender, 5 to 7 minutes more. (Discard any mussels that don\u2019t open.)"),
+    /* istanbul ignore next */
+    _react["default"].createElement(
+    /* istanbul ignore next */
+    _Typography[
+    /* istanbul ignore next */
+    "default"],
+    /* istanbul ignore next */
+    null,
+    /* istanbul ignore next */
+    "Set aside off of the heat to let rest for 10 minutes, and then serve."))))
+  );
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNhcmQuanMiXSwibmFtZXMiOlsiUmVjaXBlUmV2aWV3Q2FyZCIsInByb3BzIiwiUmVhY3QiLCJ1c2VTdGF0ZSIsImV4cGFuZGVkIiwic2V0RXhwYW5kZWQiLCJoYW5kbGVFeHBhbmRDbGljayJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUFBO0FBQUE7O0FBRUE7QUFBQTtBQUFBOztBQUNBO0FBQUE7QUFBQTs7QUFDQTtBQUFBO0FBQUE7O0FBQ0E7QUFBQTtBQUFBOztBQUNBO0FBQUE7QUFBQTs7QUFDQTtBQUFBO0FBQUE7O0FBQ0E7QUFBQTtBQUFBOztBQUNBO0FBQUE7QUFBQTs7QUFDQTtBQUFBO0FBQUE7O0FBQ0E7QUFBQTtBQUFBOztBQUNBO0FBQUE7QUFBQTs7QUFDQTtBQUFBO0FBQUE7O0FBQ0E7QUFBQTtBQUFBOzs7Ozs7Ozs7Ozs7QUFFZSxTQUFTQSxnQkFBVCxDQUEwQkMsS0FBMUIsRUFBaUM7QUFBQTtBQUFBOztBQUFBO0FBQ2RDO0FBQUFBO0FBQUFBO0FBQUFBLGFBQU1DLFFBQU4sQ0FBZSxLQUFmLENBRGM7QUFBQTtBQUFBLE1BQ3ZDQyxRQUR1QztBQUFBLE1BQzdCQyxXQUQ2Qjs7QUFBQTtBQUFBOztBQUc5QyxNQUFNQyxpQkFBaUIsR0FBRyxTQUFwQkEsaUJBQW9CLEdBQU07QUFBQTtBQUFBO0FBQUE7QUFDOUJELElBQUFBLFdBQVcsQ0FBQyxDQUFDRCxRQUFGLENBQVg7QUFDRCxHQUZEOztBQUg4QztBQUFBO0FBTzlDLFNBQ0U7QUFBQTtBQUFBO0FBQUM7QUFBQTtBQUFBO0FBQUEsY0FBRDtBQUFBO0FBQUE7QUFDRTtBQUFBO0FBQUM7QUFBQTtBQUFBO0FBQUEsY0FBRDtBQUFBO0FBQUE7QUFDRSxNQUFBLE1BQU07QUFDSjtBQUFBO0FBQUM7QUFBQTtBQUFBO0FBQUEsZ0JBQUQ7QUFBQTtBQUFBO0FBQVE7QUFBQSxzQkFBVztBQUFuQjtBQUFBO0FBQUEsVUFGSjtBQU1FLE1BQUEsTUFBTTtBQUNKO0FBQUE7QUFBQztBQUFBO0FBQUE7QUFBQSxnQkFBRDtBQUFBO0FBQUE7QUFBWTtBQUFBLHNCQUFXO0FBQXZCO0FBQ0U7QUFBQTtBQUFDO0FBQUE7QUFBQTtBQUFBLGdCQUFEO0FBQUE7QUFBQSxXQURGLENBUEo7QUFXRSxNQUFBLEtBQUssRUFBQywyQkFYUjtBQVlFLE1BQUEsU0FBUyxFQUFDO0FBWlosTUFERjtBQWVFO0FBQUE7QUFBQztBQUFBO0FBQUE7QUFBQSxjQUFEO0FBQUE7QUFBQTtBQUVFLE1BQUEsS0FBSyxFQUFDLGlDQUZSO0FBR0UsTUFBQSxLQUFLLEVBQUM7QUFIUixNQWZGO0FBb0JFO0FBQUE7QUFBQztBQUFBO0FBQUE7QUFBQSxjQUFEO0FBQUE7QUFBQTtBQUNFO0FBQUE7QUFBQztBQUFBO0FBQUE7QUFBQSxjQUFEO0FBQUE7QUFBQTtBQUFZLE1BQUEsT0FBTyxFQUFDLE9BQXBCO0FBQTRCLE1BQUEsS0FBSyxFQUFDLGVBQWxDO0FBQWtELE1BQUEsU0FBUyxFQUFDO0FBQTVEO0FBQUE7QUFBQSxxS0FERixDQXBCRjtBQTBCRTtBQUFBO0FBQUM7QUFBQTtBQUFBO0FBQUEsY0FBRDtBQUFBO0FBQUE7QUFBYSxNQUFBLGNBQWM7QUFBQTtBQUFBO0FBQTNCO0FBQ0U7QUFBQTtBQUFDO0FBQUE7QUFBQTtBQUFBLGNBQUQ7QUFBQTtBQUFBO0FBQVk7QUFBQSxvQkFBVztBQUF2QjtBQUNFO0FBQUE7QUFBQztBQUFBO0FBQUE7QUFBQSxjQUFEO0FBQUE7QUFBQSxTQURGLENBREY7QUFJRTtBQUFBO0FBQUM7QUFBQTtBQUFBO0FBQUEsY0FBRDtBQUFBO0FBQUE7QUFBWTtBQUFBLG9CQUFXO0FBQXZCO0FBQ0U7QUFBQTtBQUFDO0FBQUE7QUFBQTtBQUFBLGNBQUQ7QUFBQTtBQUFBLFNBREYsQ0FKRjtBQU9FO0FBQUE7QUFBQztBQUFBO0FBQUE7QUFBQSxjQUFEO0FBQUE7QUFBQTtBQUNFLE1BQUEsT0FBTyxFQUFFRSxpQkFEWDs7QUFFRTtBQUFBLHVCQUFlRixRQUZqQjs7QUFHRTtBQUFBLG9CQUFXO0FBSGI7QUFLRTtBQUFBO0FBQUM7QUFBQTtBQUFBO0FBQUEsY0FBRDtBQUFBO0FBQUEsU0FMRixDQVBGLENBMUJGO0FBeUNFO0FBQUE7QUFBQztBQUFBO0FBQUE7QUFBQSxjQUFEO0FBQUE7QUFBQTtBQUFVO0FBQUEsWUFBSUEsUUFBZDtBQUF3QixNQUFBLE9BQU8sRUFBQyxNQUFoQztBQUF1QyxNQUFBLGFBQWE7QUFBQTtBQUFBO0FBQXBEO0FBQ0U7QUFBQTtBQUFDO0FBQUE7QUFBQTtBQUFBLGNBQUQ7QUFBQTtBQUFBO0FBQ0U7QUFBQTtBQUFDO0FBQUE7QUFBQTtBQUFBLGNBQUQ7QUFBQTtBQUFBO0FBQVksTUFBQSxTQUFTO0FBQUE7QUFBQTtBQUFyQjtBQUFBO0FBQUEsY0FERjtBQUVFO0FBQUE7QUFBQztBQUFBO0FBQUE7QUFBQSxjQUFEO0FBQUE7QUFBQTtBQUFZLE1BQUEsU0FBUztBQUFBO0FBQUE7QUFBckI7QUFBQTtBQUFBLG9HQUZGO0FBTUU7QUFBQTtBQUFDO0FBQUE7QUFBQTtBQUFBLGNBQUQ7QUFBQTtBQUFBO0FBQVksTUFBQSxTQUFTO0FBQUE7QUFBQTtBQUFyQjtBQUFBO0FBQUEsMmZBTkY7QUFjRTtBQUFBO0FBQUM7QUFBQTtBQUFBO0FBQUEsY0FBRDtBQUFBO0FBQUE7QUFBWSxNQUFBLFNBQVM7QUFBQTtBQUFBO0FBQXJCO0FBQUE7QUFBQSx5WkFkRjtBQXFCRTtBQUFBO0FBQUM7QUFBQTtBQUFBO0FBQUEsY0FBRDtBQUFBO0FBQUE7QUFBQTtBQUFBLDRFQXJCRixDQURGLENBekNGO0FBREY7QUF1RUQiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5pbXBvcnQgQXZhdGFyIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0F2YXRhcic7XG5pbXBvcnQgQ2FyZCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9DYXJkJztcbmltcG9ydCBDYXJkQWN0aW9ucyBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9DYXJkQWN0aW9ucyc7XG5pbXBvcnQgQ2FyZENvbnRlbnQgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ2FyZENvbnRlbnQnO1xuaW1wb3J0IENhcmRIZWFkZXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ2FyZEhlYWRlcic7XG5pbXBvcnQgQ2FyZE1lZGlhIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0NhcmRNZWRpYSc7XG5pbXBvcnQgQ29sbGFwc2UgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQ29sbGFwc2UnO1xuaW1wb3J0IEV4cGFuZE1vcmVJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9FeHBhbmRNb3JlJztcbmltcG9ydCBGYXZvcml0ZUljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL0Zhdm9yaXRlJztcbmltcG9ydCBJY29uQnV0dG9uIGZyb20gJ0BtYXRlcmlhbC11aS9jb3JlL0ljb25CdXR0b24nO1xuaW1wb3J0IE1vcmVWZXJ0SWNvbiBmcm9tICdAbWF0ZXJpYWwtdWkvaWNvbnMvTW9yZVZlcnQnO1xuaW1wb3J0IFNoYXJlSWNvbiBmcm9tICdAbWF0ZXJpYWwtdWkvaWNvbnMvU2hhcmUnO1xuaW1wb3J0IFR5cG9ncmFwaHkgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvVHlwb2dyYXBoeSc7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJlY2lwZVJldmlld0NhcmQocHJvcHMpIHtcbiAgY29uc3QgW2V4cGFuZGVkLCBzZXRFeHBhbmRlZF0gPSBSZWFjdC51c2VTdGF0ZShmYWxzZSk7XG5cbiAgY29uc3QgaGFuZGxlRXhwYW5kQ2xpY2sgPSAoKSA9PiB7XG4gICAgc2V0RXhwYW5kZWQoIWV4cGFuZGVkKTtcbiAgfTtcbiBcbiAgcmV0dXJuIChcbiAgICA8Q2FyZCA+XG4gICAgICA8Q2FyZEhlYWRlclxuICAgICAgICBhdmF0YXI9e1xuICAgICAgICAgIDxBdmF0YXIgYXJpYS1sYWJlbD1cInJlY2lwZVwiPlxuICAgICAgICAgICAgUlxuICAgICAgICAgIDwvQXZhdGFyPlxuICAgICAgICB9XG4gICAgICAgIGFjdGlvbj17XG4gICAgICAgICAgPEljb25CdXR0b24gYXJpYS1sYWJlbD1cInNldHRpbmdzXCI+XG4gICAgICAgICAgICA8TW9yZVZlcnRJY29uIC8+XG4gICAgICAgICAgPC9JY29uQnV0dG9uPlxuICAgICAgICB9XG4gICAgICAgIHRpdGxlPVwiU2hyaW1wIGFuZCBDaG9yaXpvIFBhZWxsYVwiXG4gICAgICAgIHN1YmhlYWRlcj1cIlNlcHRlbWJlciAxNCwgMjAxNlwiXG4gICAgICAvPlxuICAgICAgPENhcmRNZWRpYVxuICAgICAgICBcbiAgICAgICAgaW1hZ2U9XCIvc3RhdGljL2ltYWdlcy9jYXJkcy9wYWVsbGEuanBnXCJcbiAgICAgICAgdGl0bGU9XCJQYWVsbGEgZGlzaFwiXG4gICAgICAvPlxuICAgICAgPENhcmRDb250ZW50PlxuICAgICAgICA8VHlwb2dyYXBoeSB2YXJpYW50PVwiYm9keTJcIiBjb2xvcj1cInRleHRTZWNvbmRhcnlcIiBjb21wb25lbnQ9XCJwXCI+XG4gICAgICAgICAgVGhpcyBpbXByZXNzaXZlIHBhZWxsYSBpcyBhIHBlcmZlY3QgcGFydHkgZGlzaCBhbmQgYSBmdW4gbWVhbCB0byBjb29rIHRvZ2V0aGVyIHdpdGggeW91clxuICAgICAgICAgIGd1ZXN0cy4gQWRkIDEgY3VwIG9mIGZyb3plbiBwZWFzIGFsb25nIHdpdGggdGhlIG11c3NlbHMsIGlmIHlvdSBsaWtlLlxuICAgICAgICA8L1R5cG9ncmFwaHk+XG4gICAgICA8L0NhcmRDb250ZW50PlxuICAgICAgPENhcmRBY3Rpb25zIGRpc2FibGVTcGFjaW5nPlxuICAgICAgICA8SWNvbkJ1dHRvbiBhcmlhLWxhYmVsPVwiYWRkIHRvIGZhdm9yaXRlc1wiPlxuICAgICAgICAgIDxGYXZvcml0ZUljb24gLz5cbiAgICAgICAgPC9JY29uQnV0dG9uPlxuICAgICAgICA8SWNvbkJ1dHRvbiBhcmlhLWxhYmVsPVwic2hhcmVcIj5cbiAgICAgICAgICA8U2hhcmVJY29uIC8+XG4gICAgICAgIDwvSWNvbkJ1dHRvbj5cbiAgICAgICAgPEljb25CdXR0b25cbiAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVFeHBhbmRDbGlja31cbiAgICAgICAgICBhcmlhLWV4cGFuZGVkPXtleHBhbmRlZH1cbiAgICAgICAgICBhcmlhLWxhYmVsPVwic2hvdyBtb3JlXCJcbiAgICAgICAgPlxuICAgICAgICAgIDxFeHBhbmRNb3JlSWNvbiAvPlxuICAgICAgICA8L0ljb25CdXR0b24+XG4gICAgICA8L0NhcmRBY3Rpb25zPlxuICAgICAgPENvbGxhcHNlIGluPXtleHBhbmRlZH0gdGltZW91dD1cImF1dG9cIiB1bm1vdW50T25FeGl0PlxuICAgICAgICA8Q2FyZENvbnRlbnQ+XG4gICAgICAgICAgPFR5cG9ncmFwaHkgcGFyYWdyYXBoPk1ldGhvZDo8L1R5cG9ncmFwaHk+XG4gICAgICAgICAgPFR5cG9ncmFwaHkgcGFyYWdyYXBoPlxuICAgICAgICAgICAgSGVhdCAxLzIgY3VwIG9mIHRoZSBicm90aCBpbiBhIHBvdCB1bnRpbCBzaW1tZXJpbmcsIGFkZCBzYWZmcm9uIGFuZCBzZXQgYXNpZGUgZm9yIDEwXG4gICAgICAgICAgICBtaW51dGVzLlxuICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgICA8VHlwb2dyYXBoeSBwYXJhZ3JhcGg+XG4gICAgICAgICAgICBIZWF0IG9pbCBpbiBhICgxNC0gdG8gMTYtaW5jaCkgcGFlbGxhIHBhbiBvciBhIGxhcmdlLCBkZWVwIHNraWxsZXQgb3ZlciBtZWRpdW0taGlnaFxuICAgICAgICAgICAgaGVhdC4gQWRkIGNoaWNrZW4sIHNocmltcCBhbmQgY2hvcml6bywgYW5kIGNvb2ssIHN0aXJyaW5nIG9jY2FzaW9uYWxseSB1bnRpbCBsaWdodGx5XG4gICAgICAgICAgICBicm93bmVkLCA2IHRvIDggbWludXRlcy4gVHJhbnNmZXIgc2hyaW1wIHRvIGEgbGFyZ2UgcGxhdGUgYW5kIHNldCBhc2lkZSwgbGVhdmluZyBjaGlja2VuXG4gICAgICAgICAgICBhbmQgY2hvcml6byBpbiB0aGUgcGFuLiBBZGQgcGltZW50w7NuLCBiYXkgbGVhdmVzLCBnYXJsaWMsIHRvbWF0b2VzLCBvbmlvbiwgc2FsdCBhbmRcbiAgICAgICAgICAgIHBlcHBlciwgYW5kIGNvb2ssIHN0aXJyaW5nIG9mdGVuIHVudGlsIHRoaWNrZW5lZCBhbmQgZnJhZ3JhbnQsIGFib3V0IDEwIG1pbnV0ZXMuIEFkZFxuICAgICAgICAgICAgc2FmZnJvbiBicm90aCBhbmQgcmVtYWluaW5nIDQgMS8yIGN1cHMgY2hpY2tlbiBicm90aDsgYnJpbmcgdG8gYSBib2lsLlxuICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgICA8VHlwb2dyYXBoeSBwYXJhZ3JhcGg+XG4gICAgICAgICAgICBBZGQgcmljZSBhbmQgc3RpciB2ZXJ5IGdlbnRseSB0byBkaXN0cmlidXRlLiBUb3Agd2l0aCBhcnRpY2hva2VzIGFuZCBwZXBwZXJzLCBhbmQgY29va1xuICAgICAgICAgICAgd2l0aG91dCBzdGlycmluZywgdW50aWwgbW9zdCBvZiB0aGUgbGlxdWlkIGlzIGFic29yYmVkLCAxNSB0byAxOCBtaW51dGVzLiBSZWR1Y2UgaGVhdCB0b1xuICAgICAgICAgICAgbWVkaXVtLWxvdywgYWRkIHJlc2VydmVkIHNocmltcCBhbmQgbXVzc2VscywgdHVja2luZyB0aGVtIGRvd24gaW50byB0aGUgcmljZSwgYW5kIGNvb2tcbiAgICAgICAgICAgIGFnYWluIHdpdGhvdXQgc3RpcnJpbmcsIHVudGlsIG11c3NlbHMgaGF2ZSBvcGVuZWQgYW5kIHJpY2UgaXMganVzdCB0ZW5kZXIsIDUgdG8gN1xuICAgICAgICAgICAgbWludXRlcyBtb3JlLiAoRGlzY2FyZCBhbnkgbXVzc2VscyB0aGF0IGRvbuKAmXQgb3Blbi4pXG4gICAgICAgICAgPC9UeXBvZ3JhcGh5PlxuICAgICAgICAgIDxUeXBvZ3JhcGh5PlxuICAgICAgICAgICAgU2V0IGFzaWRlIG9mZiBvZiB0aGUgaGVhdCB0byBsZXQgcmVzdCBmb3IgMTAgbWludXRlcywgYW5kIHRoZW4gc2VydmUuXG4gICAgICAgICAgPC9UeXBvZ3JhcGh5PlxuICAgICAgICA8L0NhcmRDb250ZW50PlxuICAgICAgPC9Db2xsYXBzZT5cbiAgICA8L0NhcmQ+XG4gICk7XG59Il19
