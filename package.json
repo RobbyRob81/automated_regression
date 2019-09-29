@@ -1,0 +1,84 @@
+{
+  "name": "verus",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.4.3",
+    "@material-ui/icons": "^4.4.3",
+    "@storybook/react": "^5.2.1",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "g": "plop",
+    "storybook:build": "build-storybook",
+    "storybook:predeploy": "npm run storybook:build",
+    "storybook": "start-storybook -p 9009",
+    "report": "open coverage/index.html",
+    "report:update": "jest --coverage --updateSnapshot",
+    "report:wallaby": "open -a 'Google Chrome' http://localhost:51245/",
+    "test:jest": "jest",
+    "test:regression:all": "react-scripts test --verbose --coverage --watchAll",
+    "test:regression": "react-scripts test --verbose --coverage",
+    "test:snapshots:all": "jest --coverage --updateSnapshot --watchAll",
+    "test": "wait-port http://localhost:9009 && react-scripts test --env=jsdom",
+    "lint": "node_modules/.bin/eslint"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^5.2.1",
+    "@storybook/addon-jest": "^5.2.1",
+    "@storybook/addon-links": "^5.2.1",
+    "@storybook/addon-storyshots": "^5.2.1",
+    "@storybook/addon-storyshots-puppeteer": "^5.2.1",
+    "@storybook/addons": "^5.2.1",
+    "@storybook/html": "^5.2.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "jest-cli": "^24.9.0",
+    "jest-image-snapshot": "^2.11.0",
+    "npm-run-all": "^4.1.5",
+    "path": "^0.12.7",
+    "plop": "^2.4.0",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "^16.9.0",
+    "require-context.macro": "^1.2.1",
+    "wait-port": "^0.2.2"
+  }
+}

@@ -135,4 +135,5 @@ You can get test coverage feedback in your editor if you use Wallaby.js More inf
     2. Configure via Automatic Configuration, select `Automatic Configuration <project directory>` More info [here](https://wallabyjs.com/docs/intro/config.html)
     3. You Should now see test coverage in your editor.
     4. Optional, you can view the app test coverage by going to [ http://localhost:51245]( http://localhost:51245) to see test coverage
+
 # automated_regression

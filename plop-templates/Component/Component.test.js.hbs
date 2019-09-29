@@ -1,0 +1,10 @@
+import React from 'react';
+import {{pascalCase name}} from "../{{pascalCase name}}";
+import renderer from 'react-test-renderer';
+
+test("{{pascalCase name}}", () => {
+    const component = renderer.create(<{{pascalCase name}} />);
+
+    let tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+});
